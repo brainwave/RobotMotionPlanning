@@ -10,8 +10,8 @@ goal = 100;
 %Graph = generateAdjMatrix ( graph_dim );
 Graph = random_graph(graph_dim,0.1);
 %Graph(source,source) = 0;
-parallelDijkstra(source, Graph);
+%parallelDijkstra(source, Graph);
 
 %assign random weights
 
-%spt = Dijkstra(source, goal, Graph)
+spt = Dijkstra(source, goal, Graph)
